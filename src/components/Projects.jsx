@@ -37,7 +37,7 @@ export const Projects = () => {
       title: "stylos consults",
       description:
         " it is a global stakeholder relations and consultancy firm, dedicated to helping organizations navigate complex issues and build sustainable relationships with their stakeholders Web App.",
-      link: "https://stylosconsults.com",
+      link: "https://stylosconsult.com",
       imgUrl: project3,
     },
     {
