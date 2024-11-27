@@ -12,13 +12,21 @@ import project7 from "../assets/img/project7.png";
 import project6 from "../assets/img/igitego apart.png";
 import project10 from "../assets/img/godiscover.png";
 import project11 from "../assets/img/carrental.png";
-import greentor from "../assets/img/greetor.png"
+import greentor from "../assets/img/greetor.png";
+import Ironji from "../assets/img/ironji.png";
 
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Ironji Customer & Admin dashboard",
+      description:
+        "This is a dashboard for Ironji that helps client and admins to perform  their logistic operations ",
+      link: "https://dashboard.ironji.com/",
+      imgUrl: Ironji,
+    },
     {
       title: "Green Realtor revamped website",
       description:
