@@ -14,12 +14,26 @@ import project10 from "../assets/img/godiscover.png";
 import project11 from "../assets/img/carrental.png";
 import greentor from "../assets/img/greetor.png";
 import Ironji from "../assets/img/ironji.png";
+import afor from "../assets/img/afor.png";
+import picode from "../assets/img/picode.png";
 
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "PiCode Group website",
+      description: "Huge website for PiCode Group",
+      link: "https://picode-v2.vercel.app/",
+      imgUrl: picode,
+    },
+    {
+      title: "Afor website",
+      description: "Afor NGO website",
+      link: "https://afor.rw/",
+      imgUrl: afor,
+    },
     {
       title: "Ironji Customer & Admin dashboard",
       description:
