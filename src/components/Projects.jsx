@@ -25,7 +25,7 @@ export const Projects = () => {
     {
       title: "PiCode Group website",
       description: "Huge website for PiCode Group",
-      link: "https://picode-v2.vercel.app/",
+      link: "https://picodegroup.com/",
       imgUrl: picode,
     },
     {
